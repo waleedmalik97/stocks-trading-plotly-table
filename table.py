@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 pd.options.mode.chained_assignment = None
 
 
-res = requests.get('https://data.tradeui.com/tui_sweeps?idT=aa')
+res = requests.get('Your API Link')
 
 res = res.json() # convert to json
 res = np.array(res)
